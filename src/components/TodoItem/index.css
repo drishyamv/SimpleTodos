@@ -1,0 +1,35 @@
+.todoItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.todoName {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 500;
+  color: #000000;
+}
+@media screen and (min-width: 768px) {
+  .todoName {
+    font-size: 32px;
+  }
+}
+.delete-todo {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 500;
+  border-color: #ff0b37;
+  height: 40px;
+  width: 90px;
+  border-radius: 5px;
+  border-style: solid;
+  margin-top: 26px;
+  margin-bottom: 12px;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 5px;
+  border-width: 1px;
+  cursor: pointer;
+  outline: none;
+}
